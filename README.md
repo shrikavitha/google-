@@ -23,8 +23,6 @@ For each entry in the monitor output:
         Increment total_latency by NOC latency
         Increment total_bytes by size of data (32B)
         Increment num_transactions by 1
-
-
 average_latency = total_latency / num_transactions
 average_bandwidth = total_bytes / num_transactions
 
